@@ -303,7 +303,7 @@ describe('Wrapper', () => {
       // to include the datasource
       await screen.findByText(`loki Editor input: { label="value"}`);
 
-      await waitFor(() => expect(document.title).toEqual('Explore - loki - Grafana'));
+      await waitFor(() => expect(document.title).toEqual('Explore - loki - EMS'));
     });
 
     it('changes the document title to include the two datasources in use in split view mode', async () => {
@@ -319,7 +319,7 @@ describe('Wrapper', () => {
       await screen.findByText(`loki Editor input: { label="value"}`);
 
       store.dispatch(mainState.splitOpen({ datasourceUid: 'elastic', query: { expr: 'error', refId: 'A' } }));
-      await waitFor(() => expect(document.title).toEqual('Explore - loki | elastic - Grafana'));
+      await waitFor(() => expect(document.title).toEqual('Explore - loki | elastic - EMS'));
     });
   });
 

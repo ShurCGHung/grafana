@@ -193,7 +193,7 @@ const getStyles = (theme: GrafanaTheme2) => ({
   }),
   sidemenu: css({
     label: 'sidemenu',
-    display: 'flex',
+    display: 'none',
     flexDirection: 'column',
     backgroundColor: theme.colors.background.primary,
     zIndex: theme.zIndex.sidemenu,

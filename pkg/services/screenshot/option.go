@@ -13,7 +13,7 @@ var (
 	DefaultTo      = "now"
 	DefaultHeight  = 500
 	DefaultWidth   = 1000
-	DefaultTheme   = models.ThemeDark
+	DefaultTheme   = models.ThemeLight
 	DefaultTimeout = 15 * time.Second
 )
 

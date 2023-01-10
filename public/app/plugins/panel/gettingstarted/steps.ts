@@ -4,7 +4,7 @@ import { getDatasourceSrv } from 'app/features/plugins/datasource_srv';
 
 import { SetupStep } from './types';
 
-const step1TutorialTitle = 'Grafana fundamentals';
+const step1TutorialTitle = 'EMS fundamentals';
 const step2TutorialTitle = 'Create users and teams';
 const keyPrefix = 'getting.started.';
 const step1Key = `${keyPrefix}${step1TutorialTitle.replace(' ', '-').trim().toLowerCase()}`;
@@ -12,10 +12,10 @@ const step2Key = `${keyPrefix}${step2TutorialTitle.replace(' ', '-').trim().toLo
 
 export const getSteps = (): SetupStep[] => [
   {
-    heading: 'Welcome to Grafana',
-    subheading: 'The steps below will guide you to quickly finish setting up your Grafana installation.',
+    heading: 'Welcome to EMS',
+    subheading: 'The steps below will guide you to quickly finish setting up your EMS installation.',
     title: 'Basic',
-    info: 'The steps below will guide you to quickly finish setting up your Grafana installation.',
+    info: 'The steps below will guide you to quickly finish setting up your EMS installation.',
     done: false,
     cards: [
       {

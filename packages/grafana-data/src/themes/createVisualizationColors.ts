@@ -137,11 +137,11 @@ function getDarkHues(): ThemeVizHue[] {
     {
       name: 'blue',
       shades: [
-        { color: '#C0D8FF', name: 'super-light-blue', aliases: [] },
-        { color: '#8AB8FF', name: 'light-blue', aliases: [] },
-        { color: '#5794F2', name: 'blue', aliases: [], primary: true },
-        { color: '#3274D9', name: 'semi-dark-blue', aliases: [] },
-        { color: '#1F60C4', name: 'dark-blue', aliases: [] },
+        { color: '#00FFFF', name: 'super-light-blue', aliases: [] },
+        { color: '#00FFFF', name: 'light-blue', aliases: [] },
+        { color: '#00FFFF', name: 'blue', aliases: [], primary: true },
+        { color: '#00FFFF', name: 'semi-dark-blue', aliases: [] },
+        { color: '#00FFFF', name: 'dark-blue', aliases: [] },
       ],
     },
     {
@@ -202,11 +202,11 @@ function getLightHues(): ThemeVizHue[] {
     {
       name: 'blue',
       shades: [
-        { color: '#8AB8FF', name: 'super-light-blue', aliases: [] },
-        { color: '#5794F2', name: 'light-blue', aliases: [] },
-        { color: '#3274D9', name: 'blue', aliases: [], primary: true },
-        { color: '#1F60C4', name: 'semi-dark-blue', aliases: [] },
-        { color: '#1250B0', name: 'dark-blue', aliases: [] },
+        { color: '#00FFFF', name: 'super-light-blue', aliases: [] },
+        { color: '#00FFFF', name: 'light-blue', aliases: [] },
+        { color: '#00FFFF', name: 'blue', aliases: [], primary: true },
+        { color: '#00FFFF', name: 'semi-dark-blue', aliases: [] },
+        { color: '#00FFFF', name: 'dark-blue', aliases: [] },
       ],
     },
     {

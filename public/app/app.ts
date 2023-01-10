@@ -189,7 +189,7 @@ export class GrafanaApp {
         document.getElementById('reactRoot')
       );
     } catch (error) {
-      console.error('Failed to start Grafana', error);
+      console.error('Failed to start EMS', error);
       window.__grafana_load_failed();
     }
   }
